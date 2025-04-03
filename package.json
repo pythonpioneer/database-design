@@ -1,12 +1,12 @@
 {
 	"name": "database-design",
 	"version": "1.0.0",
+	"description": "This contain only database design/schemas",
 	"main": "index.js",
-	"scripts": {
-		"start": "node index.js"
-	},
-	"keywords": [],
+	"scripts": {},
 	"author": "Hrk",
 	"license": "ISC",
-	"description": "We will use this repo for database design purposes only"
+	"dependencies": {
+		"mongoose": "^8.13.1"
+	}
 }
