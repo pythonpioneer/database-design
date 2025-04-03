@@ -9,6 +9,7 @@ const bookSchema: Schema<IBook> = new Schema({
         type: String,
         required: true,
         trim: true,
+        index: true,
     },
     bookId: {
         type: String,
@@ -19,10 +20,12 @@ const bookSchema: Schema<IBook> = new Schema({
     category: {
         type: [String],
         required: true,
+        index: true,
     },
     authors: {
         type: [String],
         required: true,
+        index: true,
     },
     availableCopies: {
         type: Number,
