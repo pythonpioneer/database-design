@@ -1,5 +1,6 @@
 {
 	"name": "database-design",
+	"type": "module",
 	"version": "1.0.0",
 	"description": "This contain only database design/schemas",
 	"main": "index.js",
@@ -7,6 +8,10 @@
 	"author": "Hrk",
 	"license": "ISC",
 	"dependencies": {
+		"module-alias": "^2.2.3",
 		"mongoose": "^8.13.1"
+	},
+	"devDependencies": {
+		"@types/module-alias": "^2.0.4"
 	}
 }
